@@ -3,10 +3,6 @@
   "version": "0.0.3",
   "description": "Expose job metadata as environment variables",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --recursive test",
-    "tdd": "./node_modules/.bin/mocha -w --recursive test"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Strider-CD/strider-metadata.git"

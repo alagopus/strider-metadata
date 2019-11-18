@@ -27,8 +27,3 @@ jobs:
       run: |
         rm -rf node_modules
         npm install
-    - name: npm test
-      run: |
-        npm run test
-      env:
-        CI: true
