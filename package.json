@@ -4,8 +4,8 @@
   "description": "Expose job metadata as environment variables",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test",
-    "tdd": "mocha -w --recursive test"
+    "test": "./node_modules/.bin/mocha --recursive test",
+    "tdd": "./node_modules/.bin/mocha -w --recursive test"
   },
   "repository": {
     "type": "git",
